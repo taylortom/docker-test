@@ -2,9 +2,8 @@
 const express = require('express');
 const path = require('path');
 
-const config = require(path.resolve(`../conf/${path.basename(__dirname)}.config.js`));
-
 console.log(process.env);
+const config = {};
 
 // Constants
 const PORT = 8080;
